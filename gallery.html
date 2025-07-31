@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FisheyeInterior</title>
+     <link href="image/logo.png" rel="icon">
+
+
+    <!-- =======  slider ======= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+    <!-- AOS Animate On Scroll Library --> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- Bootstrap --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Css --> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style-top.css">
+</head>
+<body  oncontextmenu="return false">
+    
+   <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+
+  <!-- ======= Header ======= -->
+  <div class="stickmail">
+    <p class="mail animate__animated animate__bounceInLeft"><i class="fas fa-envelope"></i> E-Mail: <a href="mailto:admin@fisheyeinterior.com">admin@fisheyeinterior.com</a> | <a href="mailto:info@fisheyeinterior.com">info@fisheyeinterior.com</a></p>
+    <p class="num animate__animated animate__bounceInRight"><i class="fa fa-phone"></i> Mobile: <a href="tel:+91 99944 44121">+91 99944 44121</a> | <a href="tel:+91 87782 83903">+91 87782 83903</a> | <a href="tel:+91 99944 25147">+91 99944 25147</a></p>
+  </div>
+
+    <header class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+        <a href="/index.html"><div class="logo "><img src="image/logo.png" alt="" class=" animate__animated animate__flip"></div></a>
+          <ul class="links">
+            <li data-aos="fade-left" ><a href="index.html" >Home</a></li>
+            <li data-aos="fade-left" data-aos-delay="200"><a href="about.html">About</a></li>
+            <li data-aos="fade-left" data-aos-delay="400"><a href="service.html">Services</a></li>
+            <li data-aos="fade-left" data-aos-delay="600"> <a class="active" href="gallery.html" >Gallery</a></li>
+            <li data-aos="fade-left" data-aos-delay="800"><a href="contact.html">Contact</a></li>
+            
+          </ul>
+          <a class="btnquote" href="contact.html"><button class="button button--bestia">
+            <div class="button__bg"></div><span>Get Quote</span>
+          </button></a>
+        </div>
+      </nav>
+    </header>
+  
+    <script type="text/javascript">
+      window.addEventListener("scroll",function(){
+         var header = document.querySelector("header");
+         header.classList.toggle("sticky",window.scrollY > 0)
+         var nav = document.querySelector(".links");
+         nav.classList.toggle("stickyhead",window.scrollY > 0)      
+      })
+    
+    </script>
+    <div class="emty"></div>
+
+
+
+<!--======================== Portfolio ========================= -->
+
+<div class="container wrapper-port" style="margin-top: 50px;">
+  <div class="seven">
+  <h1 data-aos="zoom-in">Gallery</h1>
+  </div>
+  
+    <nav>
+      <div class="items" >
+        <span class="item active" data-aos="fade-up"  data-name="all">All</span>
+        <span class="item" data-aos="fade-up" data-name="on">OnGoing</span>
+        <span class="item" data-aos="fade-up"  data-name="com">Completed</span>
+      <!--  <span class="item" data-aos="fade-up" data-name="Modular">Modular Kitchen</span>
+        <span class="item" data-aos="fade-up" data-name="Office">Office Interior</span>
+        <span class="item" data-aos="fade-up" data-name="House">House Interior</span>
+        <span class="item" data-aos="fade-up" data-name="Bedroom">Bedroom Interior</span>
+        <span class="item" data-aos="fade-up" data-name="Garment">Garment Interior</span>
+        <span class="item" data-aos="fade-up" data-name="Fall">Fall Celling</span>
+        <span class="item" data-aos="fade-up" data-name="ACP">ACP</span>
+        -->
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery" data-aos="fade-up" data-aos-delay="200">
+  
+      <div class="image1" data-name="Construction"><span><img src="image/bg/poja.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner2.jpg" alt=""></span></div>
+      <div class="image1" data-name="Hotel"><span><img src="image/banner3.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner4.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner5.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner6.jpg" alt=""></span></div>
+      <div class="image1" data-name="Construction"><span><img src="image/banner1.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner2.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner3.jpg" alt=""></span></div>
+      <div class="image1" data-name="Hotel"><span><img src="image/banner4.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner5.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner6.jpg" alt=""></span></div>
+      <div class="image1" data-name="Construction"><span><img src="image/banner1.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner2.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner3.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner4.jpg" alt=""></span></div>
+      <div class="image1" data-name="Hotel"><span><img src="image/banner5.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner6.jpg" alt=""></span></div>
+      <div class="image1" data-name="Construction"><span><img src="image/banner1.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner2.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner3.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner4.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner5.jpg" alt=""></span></div>
+      <div class="image1" data-name="Model"><span><img src="image/banner6.jpg" alt=""></span></div>
+  
+    </div>
+  </div>
+  
+    <!-- fullscreen img preview box -->
+    <div class="preview-box">
+      <div class="details">
+        <span class="title">Image Category: <p></p></span>
+       <span class="icon fas fa-times"></span>
+      </div>
+      <div class="image-box1"><img src="" alt=""></div>
+      </div>
+  <div class="shadow"></div>
+  
+  
+  </div>
+  
+
+    <!--======================== Footer ========================= -->
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <h4 data-aos="fade-up" >WHAT WE DO</h4>
+            <p data-aos="fade-up" data-aos-delay="200">Fisheye Interior & construction is a structured firm having professional expertise to fulfill the elaborate range of 
+            services in interiors, construction and consulting to the clients, with timely completion of projects with perfection 
+            and uncompromised quality.</p>
+            <h4 data-aos="fade-up" data-aos-delay="400">SOCIAL LINKS</h4>
+            <a href="https://www.facebook.com/profile.php?id=100080341145172 " target="_blank"><i  data-aos="fade-up" data-aos-delay="600" class="fab fa-facebook-f fa-lg"></i></a>
+            <a href="https://www.instagram.com/fistoar/" target="_blank"><i data-aos="fade-up" data-aos-delay="700" class="fab fa-instagram fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/fist-o-ar-909b14236/" target="_blank"><i data-aos="fade-up" data-aos-delay="800" class="fab fa-linkedin-in fa-lg"></i></i></a>
+            <a href="https://www.youtube.com/@fist-oar7424" target="_blank"><i data-aos="fade-up" data-aos-delay="900" class="fab fa-youtube fa-lg"></i></i></a>        
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6 pad">
+          <h4 data-aos="fade-up">QUICK LINK</h4>
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="200"><a href="index.html">Home</a></li>	     
+            <li data-aos="fade-up" data-aos-delay="400"><a href="about.html">About</a></li>	     
+            <li data-aos="fade-up" data-aos-delay="600"><a href="service.html">Service</a></li>	     
+            <li data-aos="fade-up" data-aos-delay="800"><a href="gallery.html">Gallery</a></li>	     
+            <li data-aos="fade-up" data-aos-delay="900"><a href="contact.html">Contact</a></li>	     
+          </ul>
+  
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h4  data-aos="fade-up">OUR SERVICES</h4>
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">Modular Kitchen</li>	     
+            <li data-aos="fade-up" data-aos-delay="200">Bedroom Wardrobes</li>	     
+            <li data-aos="fade-up" data-aos-delay="300">False Ceiling</li>	     
+            <li data-aos="fade-up" data-aos-delay="400">Wallpapers</li>	     
+            <li data-aos="fade-up" data-aos-delay="500">Wooden Floorings</li>	   
+            <li data-aos="fade-up" data-aos-delay="600">Indoor Gardening</li>	          
+            <li data-aos="fade-up" data-aos-delay="700">Construction</li>	     
+            <li data-aos="fade-up" data-aos-delay="800">House Interior</li>	     
+            <li data-aos="fade-up" data-aos-delay="900">Hotel Interior</li>	     
+            <li data-aos="fade-up" data-aos-delay="1000">Office Interior</li>	     
+          </ul>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h4 data-aos="fade-up">ADDRESS</h4>
+          <p data-aos="fade-up" data-aos-delay="200">Fisheye Interior & Construction,
+            Fisheye Design Studios,
+            No.3, Shanmuga Nagar,
+            1st Street, Sungam ByPass Road,
+            Coimbatore -641 045.
+            Tamilnadu, India.</p>
+  
+          <h4 data-aos="fade-up" data-aos-delay="400">CONTACT</h4>
+            <ul>
+              <li data-aos="fade-up" data-aos-delay="500"><a href="tel:+91 99944 25147"><i class="fas fa-mobile-alt"></i>+91 99944 25147</a></li>
+              <li data-aos="fade-up" data-aos-delay="600"><a href="tel:+91 87782 83903"><i class="fas fa-mobile-alt"></i>+91 87782 83903</a></li>
+              <li data-aos="fade-up" data-aos-delay="700"><a href="tel:+91 99944 44121"><i class="fas fa-mobile-alt"></i>+91 99944 44121</a></li>
+              <li data-aos="fade-up" data-aos-delay="800"><a href="mailto:admin@fisheyeinterior.com"><i class="far fa-envelope"></i>admin@fisheyeinterior.com</a></li>
+              <li data-aos="fade-up" data-aos-delay="900"><a href="mailto:info@fisheyeinterior.com"><i class="far fa-envelope"></i>info@fisheyeinterior.com</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright">Copyright © Fisheye interior & construction 2023.</div>
+  </footer>
+  <div class="emty1">.</div>
+  
+  
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+           
+            whatsapp: "9994444121", // WhatsApp number
+            call_to_action: "", // Call to action
+            button_color: "#666666", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "viber,whatsapp", // Order of buttons
+            pre_filled_message: "Get free Consultation", // WhatsApp pre-filled message
+        };
+        var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+         s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+  </script>
+  <!-- /GetButton.io widget -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  
+    <!-- AOS Animate On Scroll Library -->  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000
+      });
+      </script>
+  
+  
+  <!-- ======= Back to top ======= --> 
+  <script src="js/script-top.js"></script>
+    <script type="text/javascript">
+    var s= skrollr.init();
+    </script>
+
+    <script src="js/portfolio.js"></script>
+  
+  </body>
+  </html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FisheyeInterior</title>
+     <link href="image/logo.png" rel="icon">
+
+
+    <!-- =======  slider ======= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style-top.css"><!-- ======= BACK TO TOP ======= --> 
+
+    <!-- AOS Animate On Scroll Library --> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- Bootstrap --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Css --> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style-top.css">
+</head>
+<body  oncontextmenu="return false">
+    
+   <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+
+  <!-- ======= Header ======= -->
+  <div class="stickmail">
+    <p class="mail animate__animated animate__bounceInLeft"><i class="fas fa-envelope"></i> E-Mail: <a href="mailto:admin@fisheyeinterior.com">admin@fisheyeinterior.com</a> | <a href="mailto:info@fisheyeinterior.com">info@fisheyeinterior.com</a></p>
+    <p class="num animate__animated animate__bounceInRight"><i class="fa fa-phone"></i> Mobile: <a href="tel:+91 99944 44121">+91 99944 44121</a> | <a href="tel:+91 87782 83903">+91 87782 83903</a> | <a href="tel:+91 99944 25147">+91 99944 25147</a></p>
+  </div>
+
+    <header class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+        <a href="/index.html"><div class="logo "><img src="image/logo.png" alt="" class=" animate__animated animate__flip"></div></a>
+          <ul class="links">
+            <li data-aos="fade-left" ><a href="index.html" >Home</a></li>
+            <li data-aos="fade-left" data-aos-delay="200"><a href="about.html">About</a></li>
+            <li data-aos="fade-left" data-aos-delay="400"><a href="service.html">Services</a></li>
+            <li data-aos="fade-left" data-aos-delay="600"> <a href="gallery.html" >Gallery</a></li>
+            <li data-aos="fade-left" data-aos-delay="800"><a class="active" href="contact.html">Contact</a></li>
+            
+          </ul>
+          <a class="btnquote" href="contact.html"><button class="button button--bestia">
+            <div class="button__bg"></div><span>Get Quote</span>
+          </button></a>
+        </div>
+      </nav>
+    </header>
+  
+    <script type="text/javascript">
+      window.addEventListener("scroll",function(){
+         var header = document.querySelector("header");
+         header.classList.toggle("sticky",window.scrollY > 0)
+         var nav = document.querySelector(".links");
+         nav.classList.toggle("stickyhead",window.scrollY > 0)      
+      })
+    
+    </script>
+    <div class="emty"></div>
+    
+
+
+<!--======================== contact ========================= -->
+<section class="contact">
+    <div class="contact-wrap">
+      <div class="contact-in">
+        <h1 class=" animate__animated animate__bounceInLeft">Contact Info</h1>
+        <h2 class="animate__animated animate__bounceInLeft animate__delay-02s"><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+        <p class="animate__animated animate__bounceInLeft animate__delay-03s">   +91 87782 83903,<br>  +91 99944 44121,<br> +91 99944 25147</p>
+        <h2 class="animate__animated animate__bounceInLeft animate__delay-04s"><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+        <p class="animate__animated animate__bounceInLeft animate__delay-05s">admin@fisheyeinterior.com, info@fisheyeinterior.com</p>
+        <h2 class="animate__animated animate__bounceInLeft animate__delay-06s"><i class="fas fa-map-marker-alt"></i> Address</h2>
+        <p class="animate__animated animate__bounceInLeft animate__delay-07s">Fisheye Interior Construction<br>
+            Fisheye Design Studios,<br>
+            No.3, Shanmuga Nagar,
+            1st Street, Sungam ByPass Road,
+            Coimbatore -641 045.
+            Tamilnadu, India.</p>
+        <ul class="animate__animated animate__bounceInLeft animate__delay-1s">
+          <li><a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube fa-lg"></i></a></li>
+        </ul>
+      </div>
+      <div class="contact-in">
+        <h1 class="animate__animated animate__bounceInRight">Send a Message</h1>
+        <form action="https://formsubmit.co/admin@fisheyeinterior.com" method="POST">
+          <input type="text" name="name" placeholder="Full Name" class="contact-in-input animate__animated animate__bounceInRight animate__delay-02s">
+          <input type="text" name="email" placeholder="Email" class="contact-in-input animate__animated animate__bounceInRight animate__delay-04s">
+          <input type="text" name="Subject" placeholder="Subject" class="contact-in-input animate__animated animate__bounceInRight animate__delay-06s">
+          <textarea name="message" placeholder="Message" class="contact-in-textarea animate__animated animate__bounceInRight animate__delay-08s"></textarea>
+          <input type="submit" value="Send" class="contact-in-btn animate__animated animate__bounceInRight animate__delay-1s">
+        </form>
+      </div>
+      <div class="contact-in" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.632599362835!2d76.97625301472307!3d10.9910795582005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba858fe8390e597%3A0x3049eab389f4eb06!2sFisheye%20design%20studios!5e0!3m2!1sen!2sin!4v1663671846951!5m2!1sen!2sin" width="100%" height="auto" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    </section>   
+    
+
+<!--======================== Footer ========================= -->
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6">
+          <h4 data-aos="fade-up" >WHAT WE DO</h4>
+          <p data-aos="fade-up" data-aos-delay="200">Fisheye Interior & construction is a structured firm having professional expertise to fulfill the elaborate range of 
+          services in interiors, construction and consulting to the clients, with timely completion of projects with perfection 
+          and uncompromised quality.</p>
+          <h4 data-aos="fade-up" data-aos-delay="400">SOCIAL LINKS</h4>
+          <a href="https://www.facebook.com/profile.php?id=100080341145172 " target="_blank"><i  data-aos="fade-up" data-aos-delay="600" class="fab fa-facebook-f fa-lg"></i></a>
+          <a href="https://www.instagram.com/fistoar/" target="_blank"><i data-aos="fade-up" data-aos-delay="700" class="fab fa-instagram fa-lg"></i></a>
+          <a href="https://www.linkedin.com/in/fist-o-ar-909b14236/" target="_blank"><i data-aos="fade-up" data-aos-delay="800" class="fab fa-linkedin-in fa-lg"></i></i></a>
+          <a href="https://www.youtube.com/@fist-oar7424" target="_blank"><i data-aos="fade-up" data-aos-delay="900" class="fab fa-youtube fa-lg"></i></i></a>        
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 pad">
+        <h4 data-aos="fade-up">QUICK LINK</h4>
+        <ul>
+          <li data-aos="fade-up" data-aos-delay="200"><a href="index.html">Home</a></li>	     
+          <li data-aos="fade-up" data-aos-delay="400"><a href="about.html">About</a></li>	     
+          <li data-aos="fade-up" data-aos-delay="600"><a href="service.html">Service</a></li>	     
+          <li data-aos="fade-up" data-aos-delay="800"><a href="gallery.html">Gallery</a></li>	     
+          <li data-aos="fade-up" data-aos-delay="900"><a href="contact.html">Contact</a></li>	     
+        </ul>
+
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h4  data-aos="fade-up">OUR SERVICES</h4>
+        <ul>
+          <li data-aos="fade-up" data-aos-delay="100">Modular Kitchen</li>	     
+          <li data-aos="fade-up" data-aos-delay="200">Bedroom Wardrobes</li>	     
+          <li data-aos="fade-up" data-aos-delay="300">False Ceiling</li>	     
+          <li data-aos="fade-up" data-aos-delay="400">Wallpapers</li>	     
+          <li data-aos="fade-up" data-aos-delay="500">Wooden Floorings</li>	   
+          <li data-aos="fade-up" data-aos-delay="600">Indoor Gardening</li>	          
+          <li data-aos="fade-up" data-aos-delay="700">Construction</li>	     
+          <li data-aos="fade-up" data-aos-delay="800">House Interior</li>	     
+          <li data-aos="fade-up" data-aos-delay="900">Hotel Interior</li>	     
+          <li data-aos="fade-up" data-aos-delay="1000">Office Interior</li>	     
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h4 data-aos="fade-up">ADDRESS</h4>
+        <p data-aos="fade-up" data-aos-delay="200">Fisheye Interior & Construction,
+          Fisheye Design Studios,
+          No.3, Shanmuga Nagar,
+          1st Street, Sungam ByPass Road,
+          Coimbatore -641 045.
+          Tamilnadu, India.</p>
+
+        <h4 data-aos="fade-up" data-aos-delay="400">CONTACT</h4>
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="500"><a href="tel:+91 99944 25147"><i class="fas fa-mobile-alt"></i>+91 99944 25147</a></li>
+            <li data-aos="fade-up" data-aos-delay="600"><a href="tel:+91 87782 83903"><i class="fas fa-mobile-alt"></i>+91 87782 83903</a></li>
+            <li data-aos="fade-up" data-aos-delay="700"><a href="tel:+91 99944 44121"><i class="fas fa-mobile-alt"></i>+91 99944 44121</a></li>
+            <li data-aos="fade-up" data-aos-delay="800"><a href="mailto:admin@fisheyeinterior.com"><i class="far fa-envelope"></i>admin@fisheyeinterior.com</a></li>
+            <li data-aos="fade-up" data-aos-delay="900"><a href="mailto:info@fisheyeinterior.com"><i class="far fa-envelope"></i>info@fisheyeinterior.com</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container copyright">Copyright © Fisheye interior & construction 2023.</div>
+</footer>
+<div class="emty1">.</div>
+
+
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+         
+          whatsapp: "9994444121", // WhatsApp number
+          call_to_action: "", // Call to action
+          button_color: "#666666", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "viber,whatsapp", // Order of buttons
+          pre_filled_message: "Get free Consultation", // WhatsApp pre-filled message
+      };
+      var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+       s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
+
+      <!-- AOS Animate On Scroll Library -->  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+   AOS.init({
+   duration: 1000
+   });
+  </script>
+
+
+      <!-- ======= Back to top ======= --> 
+  <script src="js/script-top.js"></script>
+  <script type="text/javascript">
+  var s= skrollr.init();
+  </script>
+
+</body>
+</html>
